@@ -2,6 +2,7 @@
 @section('title','User')
 @section('content')
 <h1>User</h1>
+
 <hr>
 
 @if(session('result') == 'success')
@@ -25,6 +26,7 @@
 <div class="row">
 	<div class="col-md-6 mb-3">
 		<a href="{{ route('admin.user.add') }}" class="btn btn-primary">[+] Tambah</a>
+        
 	</div>
 
     <div class="col-md-6 mb-3">
